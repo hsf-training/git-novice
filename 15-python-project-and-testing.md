@@ -67,10 +67,17 @@ planetsmath/
         └── test_functions.py
 ```
 
-You can see this sample project [here](https://github.com/mambelli/planetsmath) and clone it with:
+You can see this sample project [here](https://github.com/mambelli/planetsmath) and clone it with (assumin you use CLI and HTTPS):
+
+```bash
+$ git clone https://github.com/mambelli/planetsmath.git
+```
+
+ If using SSH:
 
 ```bash
 $ git clone git@github.com:mambelli/planetsmath.git
+
 ```
 
 We'll talk of these folders/files one at a time:
