@@ -26,7 +26,7 @@ practice, though, it's easiest to use one copy as a central hub, and to keep it
 on the web rather than on someone's laptop.  Most programmers use hosting
 services like [GitHub](https://github.com), [Bitbucket](https://bitbucket.org) or
 [GitLab](https://gitlab.com/) to hold those main copies; we'll explore the pros
-and cons of this in a later episode.
+and cons of this in a [later episode](13-hosting.md).
 
 Let's start by sharing the changes we've made to our current project with the
 world. To this end we are going to create a *remote* repository that will be linked to our *local* repository.
@@ -97,8 +97,7 @@ Then you can create an [access token](https://docs.github.com/en/authentication/
 via `gh auth login` and authenticate via HTTPS.  Otherwise, if not using GitHub CLI, use SSH as described below. 
 It requires some additional configuration, but it is a standard security protocol widely used by many
 applications.  The steps below describe SSH at a
-minimum level for GitHub. A supplemental episode to this lesson discusses advanced setup
-and concepts of SSH and key pairs, and other material supplemental to git related SSH.
+minimum level for GitHub.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -448,7 +447,7 @@ GitHub, though, this command would download them to our local repository.
 ## GitHub GUI
 
 Browse to your `planets` repository on GitHub.
-Under the Code tab, find and click on the text that says "XX commits" (where "XX" is some number).
+Underneath the Code button, find and click on the text that says "XX commits" (where "XX" is some number).
 Hover over, and click on, the three buttons to the right of each commit.
 What information can you gather/explore from these buttons?
 How would you get that same information in the shell?
@@ -487,7 +486,7 @@ Github also allows you to skip the command line and upload files directly to
 your repository without having to leave the browser. There are two options.
 First you can click the "Upload files" button in the toolbar at the top of the
 file tree. Or, you can drag and drop files from your desktop onto the file
-tree. You can read more about this [on this GitHub page](https://help.github.com/articles/adding-a-file-to-a-repository/)
+tree. You can read more about this [on this GitHub page](https://help.github.com/articles/adding-a-file-to-a-repository/).
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
